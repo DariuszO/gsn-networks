@@ -1,43 +1,86 @@
 {
-  "3": {
-    "name": "Ropsten",
-    "RelayHub": "0x29e41C2b329fF4921d8AC654CEc909a0B575df20",
-    "Forwarder": "0x25CEd1955423BA34332Ec1B60154967750a0297D",
-    "VersionRegistry": "0x666eaf8628FEb3389003ef69C57fE4ebaae2aAF5",
-    "Paymaster": "0x8057c0fb7089BB646f824fF4A4f5a18A8d978ecC"
-  },
-  "4": {
-    "name": "Rinkeby",
-    "RelayHub": "0x53C88539C65E0350408a2294C4A85eB3d8ce8789",
-    "Forwarder": "0x956868751Cc565507B3B58E53a6f9f41B56bed74",
-    "VersionRegistry": "0x6fa486Bfd75E8C791D75F7B118bf20F6c8dA5E5D",
-    "Paymaster": "0x43d66E6Dce20264F6511A0e8EEa3f570980341a2"
-  },
-  "42": {
-    "name": "Kovan",
-    "RelayHub": "0xE9dcD2CccEcD77a92BA48933cb626e04214Edb92",
-    "Forwarder": "0x0842Ad6B8cb64364761C7c170D0002CC56b1c498",
-    "VersionRegistry": "0x570EFB87a19367cDbD715039b4aC38554b308896",
-    "Paymaster": "0x083082b7Eada37dbD8f263050570B31448E61c94"
-  },
-  "5": {
-    "name": "Goerli",
-    "RelayHub": "0x1F3d1C33977957EA41bEdFDcBf7fF64Fd3A3985e",
-    "Forwarder": "0xd9c1a99e9263B98F3f633a9f1A201FA0AFC2A1c2",
-    "VersionRegistry": "0xB31d191557754e7C7f0e6aabe832396aC8F608DD",
-    "Paymaster": "0x50d2b611CC85308CeEecd7a43D00168b97B71F9A"
-  },
-  "1": {
-    "name": "Mainnet",
-    "RelayHub": "0x515e39f12590a94B102903363336AF9761ebF621",
-    "Forwarder": "0xa530F85085C6FE2f866E7FdB716849714a89f4CD",
-    "VersionRegistry": "0x31e861242d3fDCD1cAeF4b2c802E06c5E8A8E0b5"
-  },
-  "6": {
-    "name": "Kotti",
-    "RelayHub": "0x28708de1d5c681427C3F36170929D31184C113B4",
-    "VersionRegistry": "0xE69f0471320F01EAe5f83c51a56e55C0465c76a5",
-    "Forwarder": "0xE1AF20B1B5E8BF725485e8d23C54868D716df17B",
-    "Paymaster": "0x9AE9FC73A7ad54004D7eEA2817787684FBE52433"
+  "description": "List of networks with official OpenGSN deployment. For testnets, we also provide an \"accept-everything\" Paymaster.",
+  "version": "2.2.0",
+  "networks": {
+    "1": {
+      "name": "eth",
+      "RelayHub": "0x9e59Ea5333cD4f402dAc320a04fafA023fe3810D",
+      "Forwarder": "0xAa3E82b4c4093b4bA13Cb5714382C99ADBf750cA",
+      "VersionRegistry": "0x97B6ebd38f2000B6E446DE24D9805606b882A1C5"
+    },
+    "4": {
+      "name": "rinkeby",
+      "RelayHub": "0x6650d69225CA31049DB7Bd210aE4671c0B1ca132",
+      "Forwarder": "0x83A54884bE4657706785D7309cf46B58FE5f6e8a",
+      "VersionRegistry": "0xedD8C4103acAd42F7478021143E29e1B05aD85C6",
+      "Paymaster": "0xA6e10aA9B038c9Cddea24D2ae77eC3cE38a0c016"
+    },
+    "3": {
+      "name": "ropsten",
+      "RelayHub": "0xAa3E82b4c4093b4bA13Cb5714382C99ADBf750cA",
+      "Forwarder": "0xeB230bF62267E94e657b5cbE74bdcea78EB3a5AB",
+      "VersionRegistry": "0x9e59Ea5333cD4f402dAc320a04fafA023fe3810D",
+      "Paymaster": "0x246aC46ad7ee41A1Ba87DbF9Dd0592E8a20951D9"
+    },
+    "5": {
+      "name": "goerli",
+      "RelayHub": "0x727862794bdaa3b8Bc4E3705950D4e9397E3bAfd",
+      "Forwarder": "0x7eEae829DF28F9Ce522274D5771A6Be91d00E5ED"
+    },
+    "42": {
+      "name": "kovan",
+      "RelayHub": "0x727862794bdaa3b8Bc4E3705950D4e9397E3bAfd",
+      "Forwarder": "0x7eEae829DF28F9Ce522274D5771A6Be91d00E5ED",
+      "VersionRegistry": "0x7380D97dedf9B8EEe5bbE41422645aA19Cd4C8B3",
+      "Paymaster": "0xdA78a11FD57aF7be2eDD804840eA7f4c2A38801d"
+    },
+    "137": {
+      "name": "Polygon",
+      "RelayHub": "0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d",
+      "Forwarder": "0xdA78a11FD57aF7be2eDD804840eA7f4c2A38801d",
+      "VersionRegistry": "0x4Fe8824c885D67613848c94a15dce7680897f33E",
+      "Paymaster": "0x9d47218ce8b8F123Efbb1Db3E0DdBe6490Cf77E1"
+    },
+    "80001": {
+      "name": "Mumbai",
+      "RelayHub": "0x6646cD15d33cE3a6933e36de38990121e8ba2806",
+      "Forwarder": "0x4d4581c01A457925410cd3877d17b2fd4553b2C5",
+      "VersionRegistry": "0x4Fe8824c885D67613848c94a15dce7680897f33E",
+      "Paymaster": "0xcA94aBEdcC18A10521aB7273B3F3D5ED28Cf7B8A"
+    },
+    "61": {
+      "name": "etc",
+      "RelayHub": "0xDC8B38D05Be14818EE6d1cc4E5245Df6C52A684E",
+      "Forwarder": "0x0DEEF5a1e5bF8794A5145e052E24A852a081AF65",
+      "VersionRegistry": "0x10E207898E76137bb27b31609a275b0635080632"
+    },
+    "6": {
+      "name": "kotti",
+      "RelayHub": "0xAdB0B519873860F396F8d6642286C179A5A0770D",
+      "Forwarder": "0x255fc98fE2C2564CF361E6dCD233862f884826E5",
+      "VersionRegistry": "0x1869261D45343C4b93bDC49f2abd31496a1A8F6a",
+      "Paymaster": "0x41ddb318BB35cA0aD54b52f5b1708ff860161dCc"
+    },
+    "56": {
+      "name": "BSC",
+      "RelayHub": "0xAa3E82b4c4093b4bA13Cb5714382C99ADBf750cA",
+      "Forwarder": "0xeB230bF62267E94e657b5cbE74bdcea78EB3a5AB",
+      "VersionRegistry": "0x9e59Ea5333cD4f402dAc320a04fafA023fe3810D",
+      "Paymaster": "0x01a5a06C5Ba6E5f8FC9CB060492fae1b3d03c69d"
+    },
+    "97": {
+      "name": "bsctest",
+      "RelayHub": "0xAa3E82b4c4093b4bA13Cb5714382C99ADBf750cA",
+      "Forwarder": "0xeB230bF62267E94e657b5cbE74bdcea78EB3a5AB",
+      "VersionRegistry": "0x9e59Ea5333cD4f402dAc320a04fafA023fe3810D",
+      "Paymaster": "0x01a5a06C5Ba6E5f8FC9CB060492fae1b3d03c69d"
+    },
+    "100": {
+      "name": "xdai",
+      "RelayHub": "0x727862794bdaa3b8Bc4E3705950D4e9397E3bAfd",
+      "Forwarder": "0x7eEae829DF28F9Ce522274D5771A6Be91d00E5ED",
+      "VersionRegistry": "0x7380D97dedf9B8EEe5bbE41422645aA19Cd4C8B3",
+      "Paymaster": "0x9e59Ea5333cD4f402dAc320a04fafA023fe3810D"
+    }
   }
 }
