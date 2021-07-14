@@ -1,4 +1,4 @@
-## Deployed GSN contracts.
+# Deployed GSN contracts.
 
 A list officlally deployed GSN network for various networks.
 
